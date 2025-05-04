@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create - Lojinha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <div class="text_header">
+                <i class="fa-solid fa-cash-register"></i>
+                <h1>Lojinha</h1>
+            </div>
+
+            <div class="text_ancoras">
+                <h2>Menu</h2>
+                <a href="index.html" class="btn_header">
+                    <i class="fa-solid fa-eye"></i>
+                    Ver Produtos
+                </a>
+                <a href="create.html" class="btn_header">
+                    <i class="fa-solid fa-plus"></i>
+                    criar
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container_main">
+            <div class="text_main">
+                <h2>Crie seu Produto</h2>
+            </div>
+            <div class="form">
+                <input type="text" id="nome" placeholder="Nome do produto">
+                <input type="number" id="valor" placeholder="Preço do produto">
+                <input type="number" id="quantidade" placeholder="Quantidade">
+                <button id="btn_criar" onclick="create()">Criar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
